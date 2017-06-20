@@ -16,6 +16,13 @@ function initMap() {
     });
 
     directionsDisplay.setMap(map);//funcion para buscar la ruta en el mapa
+    var origenAutoComp = (document.getElementById('start'));
+          var autocompletar = new google.maps.places.Autocomplete(origenAutoComp);
+          autocompletar.bindTo('bounds', map);
+
+         var destinoAutoComp = (document.getElementById('end'));
+          var autocompletar = new google.maps.places.Autocomplete(destinoAutoComp);
+          autocompletar.bindTo('bounds', map);
 
 
 
