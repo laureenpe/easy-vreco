@@ -23,7 +23,7 @@ button:hover,button:focus{
     outline: 0;
 }
 #encuentrame{
-    margin-bottom: 2%; 
+        margin: 0;
 }
 
 /*INPUTS*/
@@ -35,8 +35,9 @@ text-align: center;
 }
 /*INDICATIONS*/
 .indications{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
+    width: 100%;
 }
 label{
     text-align: right;
